@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Bilibili Old UI",
+  "version": "1.0",
+  "description": "Turn on Bilibili Old UI",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
